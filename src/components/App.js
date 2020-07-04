@@ -1,6 +1,7 @@
 import React from 'react';
 import Noticia from './Noticia';
 import MenuNews from './Menu';
+import Noticias from '../containers/Noticias';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         title="Se está creando el mejor sitio web"
         source="La Buena"
         ></Noticia>
+        <Noticias></Noticias>
     </div>
   );
 }
